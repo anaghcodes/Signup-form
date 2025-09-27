@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="section-1">
+      <div class="logo-wrapper">
+        <img src="logo.png" alt="" />
+        <h1>ODIN</h1>
+      </div>
+      <p class="attr">
+        Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a>
+      </p>
+    </section>
+    <section class="section-2">
+      <p class="desc">
+        This is not a real online service! You know you need something
+        <br />
+        like this in your life to help you realize your deepest dreams.
+        <br />
+        Sign up now to get started.
+        <br />
+        <br />
+        You know you want to.
+      </p>
+      <form action="">
+        <h2>Let's do this!</h2>
+        <div class="col-wrapper">
+          <div class="col-1">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" name="" id="first-name" />
+
+            <label for="email">EMAIL</label>
+            <input type="email" name="" id="email" />
+
+            <label for="password">PASSWORD</label>
+            <input type="password" name="" id="password" minlength="8" />
+          </div>
+          <div class="col-2">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="" id="last-name" />
+
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="tel" name="" id="phone-number" />
+
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input
+              type="password"
+              name=""
+              id="confirm-password"
+              minlength="8"
+            />
+          </div>
+        </div>
+        <input type="submit" value="Create Account" />
+      </form>
+      <p class="already">Already have an account? <a href="#">Log in</a></p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
